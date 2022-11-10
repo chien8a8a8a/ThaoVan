@@ -51,7 +51,7 @@ $(document).ready(function () {
         confirmButtonText: "Dạ"
       }).then(()=>{$(".content1").show(2000);
     
-      setTimeout(screen1toscreen2, 3000);
+      setTimeout(screen1toscreen2, 4000);
     
     })
       
@@ -62,7 +62,7 @@ $(document).ready(function () {
     
     $(".content2").show(2000)
     $(".content1").hide()
-    setTimeout(screen2toscreen3, 3000);
+    setTimeout(screen2toscreen3, 4000);
 
   }
 
@@ -70,7 +70,7 @@ $(document).ready(function () {
     
     $(".content3").show(2000)
     $(".content2").hide()
-    setTimeout(screen3toscreen4, 3000);
+    setTimeout(screen3toscreen4, 4000);
 
   }
 
@@ -78,7 +78,7 @@ $(document).ready(function () {
     
     $(".content4").show(2000)
     $(".content3").hide()
-    setTimeout(screen4toscreen5, 3000);
+    setTimeout(screen4toscreen5, 5000);
 
   }
 
